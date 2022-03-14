@@ -1,0 +1,27 @@
+CRITICAL - 2022-03-01 21:11:03 --> Undefined index: nik
+#0 F:\UKK\app\Models\CatatanPerjalanan_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\Mode...', 21, Array)
+#1 F:\UKK\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('9124')
+#2 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#7 {main}
+CRITICAL - 2022-03-01 21:11:09 --> Undefined index: nik
+#0 F:\UKK\app\Models\CatatanPerjalanan_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\Mode...', 21, Array)
+#1 F:\UKK\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('9124')
+#2 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#7 {main}
+CRITICAL - 2022-03-01 21:11:30 --> Undefined index: nik
+#0 F:\UKK\app\Models\CatatanPerjalanan_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\Mode...', 21, Array)
+#1 F:\UKK\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('9124')
+#2 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#7 {main}

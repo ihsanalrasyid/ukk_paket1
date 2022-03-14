@@ -1,0 +1,47 @@
+CRITICAL - 2022-02-14 08:06:25 --> Undefined index: waktu
+#0 F:\UKK\app\Views\catatan_perjalanan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\View...', 29, Array)
+#1 F:\UKK\system\View\View.php(210): include('F:\\UKK\\app\\View...')
+#2 F:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 F:\UKK\app\Controllers\CatatanPerjalanan.php(28): view('catatan_perjala...', Array)
+#5 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-14 08:06:43 --> Undefined index: waktu
+#0 F:\UKK\app\Views\catatan_perjalanan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\View...', 29, Array)
+#1 F:\UKK\system\View\View.php(210): include('F:\\UKK\\app\\View...')
+#2 F:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 F:\UKK\app\Controllers\CatatanPerjalanan.php(28): view('catatan_perjala...', Array)
+#5 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-14 08:06:52 --> Undefined index: waktu
+#0 F:\UKK\app\Views\catatan_perjalanan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\UKK\\app\\View...', 29, Array)
+#1 F:\UKK\system\View\View.php(210): include('F:\\UKK\\app\\View...')
+#2 F:\UKK\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\UKK\system\Common.php(1089): CodeIgniter\View\View->render('catatan_perjala...', Array, true)
+#4 F:\UKK\app\Controllers\CatatanPerjalanan.php(28): view('catatan_perjala...', Array)
+#5 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#6 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#7 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#10 {main}
+CRITICAL - 2022-02-14 20:51:57 --> syntax error, unexpected '$nik' (T_VARIABLE), expecting ')'
+#0 F:\UKK\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('F:\\UKK\\app\\Mode...')
+#1 F:\UKK\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Cata...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Cata...')
+#3 F:\UKK\app\Controllers\CatatanPerjalanan.php(24): spl_autoload_call('App\\Models\\Cata...')
+#4 F:\UKK\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#5 F:\UKK\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#6 F:\UKK\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 F:\UKK\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 F:\UKK\system\Commands\Server\rewrite.php(43): require_once('F:\\UKK\\public\\i...')
+#9 {main}
